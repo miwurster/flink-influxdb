@@ -27,11 +27,11 @@ import org.influxdb.InfluxDB;
 import org.influxdb.InfluxDBFactory;
 import org.influxdb.dto.Query;
 import org.influxdb.dto.QueryResult;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class InfluxDBInputFormat extends GenericInputFormat<QueryResult.Result> implements NonParallelInput
 {
+  private static final long serialVersionUID = 42L;
+
   private String url;
   private String username;
   private String password;

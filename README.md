@@ -16,7 +16,7 @@ Apache Flink Connector for InfluxDB
 
 ## Usage
 
-**TODO**
+* [`InfluxDBInputFormat`](src/test/java/org/apache/flink/api/java/io/InfluxDBInputFormatExample.java) 
 
 ## Building
 
