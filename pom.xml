@@ -10,7 +10,7 @@
 
   <groupId>com.github.miwurster</groupId>
   <artifactId>flink-influxdb</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
 
   <name>Apache Flink Connector for InfluxDB</name>
   <description>Apache Flink Batch Connector for InfluxDB</description>
@@ -33,7 +33,7 @@
   <scm>
     <connection>scm:git:https://github.com/miwurster/flink-influxdb.git</connection>
     <developerConnection>scm:git:https://github.com/miwurster/flink-influxdb.git</developerConnection>
-    <tag>flink-influxdb-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
