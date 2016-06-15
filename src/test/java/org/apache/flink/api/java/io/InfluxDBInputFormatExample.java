@@ -5,9 +5,9 @@ import org.apache.flink.api.java.ExecutionEnvironment;
 public class InfluxDBInputFormatExample
 {
   private static final String INFLUXDB_URL = "http://192.168.99.100:8086";
-  private static final String INFLUXDB_USERNAME = "nemar";
-  private static final String INFLUXDB_PASSWORD = "2016";
-  private static final String INFLUXDB_DATABASE = "panero";
+  private static final String INFLUXDB_USERNAME = "root";
+  private static final String INFLUXDB_PASSWORD = "root";
+  private static final String INFLUXDB_DATABASE = "db";
   private static final String INFLUXDB_QUERY = "SELECT mean(value) FROM \"weather.temperature\" WHERE city_name = 'Stuttgart' AND tenant = 'default' AND time > now() - 1d GROUP BY time(10m)";
 
   public static void main(String[] args) throws Exception
